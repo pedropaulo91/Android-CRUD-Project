@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/tituloDashboard"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="110dp"
+            android:text="@string/subTituloDashboard"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btnDashboardNovoVeiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inseir" />
+
+        <Button
+            android:id="@+id/btnDashboardListar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listar" />
+
+        <Button
+            android:id="@+id/btnDashboardAlterar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alterar" />
+
+        <Button
+            android:id="@+id/btnDashboardRemover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deletar" />
+
+        <Button
+            android:id="@+id/btnDashboardSair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="@string/btnSair" />
+    </LinearLayout>
+
+</ScrollView>

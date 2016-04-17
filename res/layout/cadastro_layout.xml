@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewCadastroTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tituloCadastro"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textViewCadastroMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewCadastroTitulo"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lblMarca"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextCadastroMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewMarca"
+            android:ems="10"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/textViewCadastroModelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextCadastroMarca"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lblModelo"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextCadastroModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewCadastroModelo"
+            android:ems="10" 
+            android:inputType="textCapWords"
+            />
+
+        <TextView
+            android:id="@+id/textViewCadastroCor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextCadastroModelo"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lblCor"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextCadastroCor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewCadastroCor"
+            android:ems="10" 
+            android:inputType="textCapWords"
+            />
+
+        <TextView
+            android:id="@+id/textViewCadastroPlaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextCadastroPlaca"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/lblPlaca"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/editTextCadastroPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewCadastroPlaca"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:hint="LLL-NNNN"/>
+
+        <Button
+            android:id="@+id/btnCadastroCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextCadastroPlaca"
+            android:layout_marginTop="80dp"
+            android:text="@string/btnCadastrar" />
+
+        <Button
+            android:id="@+id/btnCadastroLimparCampos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCadastroCadastrar"
+            android:layout_marginTop="5dp"
+            android:text="@string/btnLimparCampos" />
+    </LinearLayout>
+
+</ScrollView>

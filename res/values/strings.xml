@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Atividade Estruturada</string>
+    <string name="inseir">Novo Veículo</string>
+    <string name="deletar">Remover</string>
+    <string name="alterar">Alterar</string>
+    <string name="listar">Listar</string>
+    <string name="btnSair">Sair</string>
+    <string name="tituloDashboard">Garagem</string>
+    <string name="subTituloDashboard">Escolha uma opção:</string>
+    <string name="tituloCadastro">Novo Veículo</string>
+    <string name="tituloAlterarVeiculo">Escolha um veículo para alterar</string>
+    <string name="tituloAlteracao">Altere os campos abaixo</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblModelo">Modelo</string>
+    <string name="lblCor">Cor</string>
+    <string name="lblPlaca">Placa</string>
+    <string name="lblItemId">Id:</string>
+    <string name="lblItemMarca">Marca:</string>
+    <string name="lblItemModelo">Modelo:</string>
+    <string name="lblItemCor">Cor:</string>
+    <string name="lblItemPlaca">Placa:</string>
+    <string name="lblAlterarVeiculoTitulo">Escolha um veículo para alterar</string>
+    <string name="lblRemoverVeiculoTitulo">Escolha um veículo para remover</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnLimparCampos">Limpar Campos</string>
+	<string name="btnAlterar">Alterar</string>
+    <string name="btnRemover">Remover</string>
+    <string name="tituloListarVeiculos">Veículos</string>
+    <string name="tituloRemover">Remover Veículo</string>
+    <string name="alertDialogOpcaoSim">Sim</string>
+    <string name="alertDialogOpcaoNao">Não</string>
+    <string name="confirmacaoExclusaoVeiculo">Deseja realmente remover este veículo?</string>
+    <string name="confirmacaoAlteracaoVeiculo">Confirma alteração?</string>
+    <string name="textoEditText">LLL-NNNN</string>
+
+</resources>

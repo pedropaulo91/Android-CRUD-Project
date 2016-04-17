@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Atividade Estruturada</string>
+    <string name="app_name">CRUD Project</string>
     <string name="inseir">Novo Veículo</string>
     <string name="deletar">Remover</string>
     <string name="alterar">Alterar</string>

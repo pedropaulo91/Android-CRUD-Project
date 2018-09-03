@@ -61,7 +61,7 @@ public class AlterarCamposVeiculoActivity extends Activity implements OnClickLis
 		editTextPlaca.setText(cursor.getString(3));
 	}
 
-	// Método chamado quando o botão Alterar é clicado
+	// Mï¿½todo chamado quando o botï¿½o Alterar ï¿½ clicado
 	@Override
 	public void onClick(View v) {
 		// Exibe o dialogo
@@ -79,7 +79,7 @@ public class AlterarCamposVeiculoActivity extends Activity implements OnClickLis
 
 	//Classe interna que implementa a interface DialogInterface.OnClickListener
 	private class Dialogo implements DialogInterface.OnClickListener{
-		// Método chamado quano uma opção do AlertDialog é clicada
+		// Mï¿½todo chamado quano uma opï¿½ï¿½o do AlertDialog ï¿½ clicada
 		@Override
 		public void onClick(DialogInterface dialog, int which) {
 			switch(which){
@@ -104,17 +104,15 @@ public class AlterarCamposVeiculoActivity extends Activity implements OnClickLis
 				resultado = db.update(MyDbHelper.TABLE_NAME, values, where, placa);
 				
 				if(resultado > 0){
-					Toast.makeText(getBaseContext(), "Alteração realizada", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getBaseContext(), "Alteraï¿½ï¿½o realizada", Toast.LENGTH_SHORT).show();
 					finish();
-					startActivity(new Intent(getBaseContext(), DashboardActivity.class));
 				}else{
-					Toast.makeText(getBaseContext(), "Alteração não realizada", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getBaseContext(), "Alteraï¿½ï¿½o nï¿½o realizada", Toast.LENGTH_SHORT).show();
 					finish();
-					startActivity(new Intent(getBaseContext(), DashboardActivity.class));
 				}
 				break;
 			case Dialog.BUTTON_NEGATIVE:
-				// Destrói o dialogo removendo-o da tela.
+				// Destrï¿½i o dialogo removendo-o da tela.
 				dialogoConfirmacao.dismiss();
 				break;
 			}
@@ -123,7 +121,7 @@ public class AlterarCamposVeiculoActivity extends Activity implements OnClickLis
 
 	}
 
-	// Instância da classe Dialogo
+	// Instï¿½ncia da classe Dialogo
 	Dialogo dialogo = new Dialogo();
 
 

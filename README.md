@@ -6,6 +6,6 @@ It stores data in a single table called "veiculo" with a primary key column name
 
 It uses ListViews for displaying data through SimpleCursorAdapters with a customized layout.
 
-This app was developed using Eclipse ADT. I created a new branch with the Android Studio version of the app and some corrections.
+This project was developed with Eclipse ADT. I created a branch with the Android Studio version of the project and some corrections.
 
 ![img](https://user-images.githubusercontent.com/7092619/44970747-7d916280-af29-11e8-8af9-98203519beb7.JPG)
